@@ -1,6 +1,6 @@
 # AlmostBlank #
 
-This is a theme built for [Octopress](http://Octopress.org) that is a work in progress strongly based on [minimal](http://orderedlist.com/minimal/).
+This is a theme built for [Octopress](http://Octopress.org) that is a work in progress yet strongly based on [minimal](http://orderedlist.com/minimal/).
 
 ![screenshot](/screenshot.png)
 
