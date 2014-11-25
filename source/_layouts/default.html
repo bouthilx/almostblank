@@ -9,9 +9,7 @@
         </header>
       <div id="main">
         <div id="content">
-          <section>
-            {{ content | expand_urls: root_url }}
-          </section>
+          {{ content | expand_urls: root_url }}
         </div>
       </div>
       <footer role="contentinfo">{% include footer.html %}</footer>
