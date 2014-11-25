@@ -3,6 +3,7 @@ layout: default
 ---
 
 <div class="blog-index">
+  <section>
   {% assign index = true %}
   {% for post in paginator.posts %}
   {% assign content = post.content %}
@@ -10,6 +11,8 @@ layout: default
       {% include article.html %}
     </article>
   {% endfor %}
+  </section>
+  <section>
   <div class="pagination">
     {% if paginator.next_page %}
       <a class="prev" href="{{paginator.next_page_path}}">&larr; Older</a>
@@ -19,6 +22,7 @@ layout: default
     <a class="next" href="{{paginator.previous_page_path}}">Newer &rarr;</a>
     {% endif %}
   </div>
+  </section>
 </div>
 <aside class="sidebar">
   {% if site.blog_index_asides.size %}
