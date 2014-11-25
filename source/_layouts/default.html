@@ -2,10 +2,11 @@
 {% include head.html %}
 <body {% if page.body_id %} id="{{ page.body_id }}" {% endif %} {% if page.sidebar == false %} class="no-sidebar" {% endif %} {% if page.sidebar == 'collapse' or site.sidebar == 'collapse' %} class="collapse-sidebar sidebar-footer" {% endif %}>
 
-    <nav>% include navigation.html %</nav>
-
+    
     <div class="wrapper">
-      <header>{% include header.html %}</header>
+        <header>{% include header.html %}
+        <nav>{% include navigation.html %}</nav>
+        </header>
       <div id="main">
         <div id="content">
           {{ content | expand_urls: root_url }}
