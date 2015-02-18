@@ -6,7 +6,7 @@ single: true
 <div>
 <article class="hentry" role="article">
   {% include article.html %}
-  <footer>
+  <!--  <footer>-->
     <p class="meta">
       {% include post/author.html %}
       {% include post/date.html %}{{ time }}{% if updated %} {{ updated }}{% endif %}
@@ -23,7 +23,7 @@ single: true
         <a class="basic-alignment right" href="{{page.next.url}}" title="Next Post: {{page.next.title}}">{{page.next.title}} &raquo;</a>
       {% endif %}
     </p>
-  </footer>
+    <!--  </footer>-->
 </article>
 {% if site.disqus_short_name and page.comments == true %}
   <section>
