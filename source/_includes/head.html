@@ -11,6 +11,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
   {% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}
+  <link href="{{ root_url }}/stylesheets/screen.css" rel="stylesheet" type="text/css">
+
   <link href="{{ root_url }}/stylesheets/styles.css" rel="stylesheet" type="text/css">
   <link href="{{ root_url }}/stylesheets/pygment_trac.css" rel="stylesheet" type="text/css">
 
