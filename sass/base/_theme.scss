@@ -1,5 +1,6 @@
-$noise-bg: image-url('noise.png') top left !default;
+//$noise-bg: image-url('noise.png') top left !default;
 $img-border: inline-image('dotted-border.png') !default;
+/*
 
 // Main Link Colors
 $link-color: lighten(#165b94, 3) !default;
@@ -21,7 +22,9 @@ $text-color: #222 !default;
 $text-color-light: #aaa !default;
 $type-border: #ddd !default;
 
+*/
 /* Navigation */
+/*
 $nav-bg: #ccc !default;
 $nav-bg-front: image-url('noise.png') !default;
 $nav-bg-back: linear-gradient(lighten($nav-bg, 8), $nav-bg, darken($nav-bg, 11)) !default;
@@ -34,7 +37,9 @@ $nav-border-bottom: darken($nav-bg, 25) !default;
 $nav-border-left: darken($nav-bg, 11) !default;
 $nav-border-right: lighten($nav-bg, 7) !default;
 
+*/
 /* Sidebar colors */
+/*
 $sidebar-bg: #f2f2f2 !default;
 $sidebar-link-color: $text-color !default;
 $sidebar-link-color-hover: $link-color-hover !default;
@@ -58,7 +63,9 @@ $footer-link-color-hover: darken($footer-color, 25) !default;
 $page-border-bottom: darken($footer-bg, 5) !default;
 
 
+*/
 /* Core theme application */
+/*
 
 a {
   @include link-colors($link-color, $hover: $link-color-hover, $focus: $link-color-hover, $visited: $link-color-visited, $active: $link-color-active);
@@ -83,3 +90,4 @@ body {
     }
   }
 }
+*/
