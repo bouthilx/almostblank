@@ -130,7 +130,7 @@
   padding: {top: 1.5em; bottom: 1.5em;}
   a {
     text-decoration: none;
-    color: $text-color-light;
+//    color: $text-color-light;
     &.prev { position: absolute; left: 0; }
     &.next { position: absolute; right: 0; }
     &:hover { color: $link-color-hover; }
